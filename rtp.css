@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background: #007BFF;
+    color: white;
+    padding: 1em 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  header ul :hover::-webkit-scrollbar-corner{
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    background: #0056b3;
+  color: #f4f4f9;
+  }
+  .element{
+    padding: 10px;
+    border: 10px;
+    margin: 10px solid red;
+  }
+  .element:hover{
+
+        background: #0056b3;
+        color: #f4f4f9;
+
+  }
+  .navbar-right{
+    justify-content: space-between;
+    
+  }
+  header a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  section {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  #report-form input, #report-form textarea {
+    display: block;
+    width: 80%;
+    margin: 1em auto;
+    padding: 0.5em;
+  }
+  
+  button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1em 0;
+  }
+  
